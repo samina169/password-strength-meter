@@ -1,40 +1,51 @@
-# Password Strength Meter
+# Personal Library Management System
 
-A Streamlit application that checks the strength of your passwords and provides suggestions for improvement.
+A modern web application built with Streamlit to manage your personal book library. Track your reading progress, organize your collection, and view statistics about your reading habits.
 
 ## Features
 
-- Real-time password strength analysis
-- Visual strength meter
-- Detailed feedback and suggestions
-- Password score calculation
-- Security tips and best practices
+- Add new books with details like title, author, genre, and rating
+- View your complete library in a clean, organized table
+- Track reading status (To Read, Reading, Completed)
+- Search books by title or author
+- View statistics and visualizations of your reading habits
+- Modern and responsive UI
 
 ## Installation
 
 1. Clone this repository
-2. Install the required packages:
+2. Install the required dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
 ## Usage
 
-1. Run the Streamlit app:
+1. Run the application:
 ```bash
 streamlit run app.py
 ```
 
 2. Open your web browser and navigate to the URL shown in the terminal (usually http://localhost:8501)
 
-3. Enter your password in the input field to see its strength and get improvement suggestions
+## Features in Detail
 
-## Requirements
+- **Add Book**: Add new books to your library with comprehensive details
+- **View Library**: Browse your complete collection in a sortable table
+- **Statistics**: View visualizations of your reading habits, including:
+  - Books by genre (pie chart)
+  - Books by status (bar chart)
+  - Average ratings by genre
+- **Search**: Quickly find books by title or author
 
-- Python 3.7+
-- Streamlit
-- password-strength
+## Data Storage
 
-## Security Note
+The application uses SQLite for data storage. Your library data is stored in a `library.db` file in the same directory as the application.
 
-This application runs locally on your machine. Your passwords are never sent to any server or stored anywhere. 
+## Contributing
+
+Feel free to fork this project and submit pull requests for any improvements or additional features.
+
+## License
+
+This project is open source and available under the MIT License. 

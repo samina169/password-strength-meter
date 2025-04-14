@@ -1,2 +1,4 @@
-streamlit==1.32.0
-zxcvbn==4.4.28 
+streamlit>=1.32.0
+pandas>=2.2.1
+plotly>=5.19.0
+sqlalchemy>=2.0.27 
